@@ -64,5 +64,9 @@ to get general information about the available options or
 <pre>./live --fps 50</pre>
 to dive immediatly into action!
 
+A live feed from your first available camera will appear, click in this window and press the r key to begin recording. To stop recording, you have to ctrl+c terminate the program directly from the terminal window.
+
 # Thanks
 I would like to acknowledge [Aakash Patel](http://aaka.sh/patel/) for his great [blog post](http://aaka.sh/patel/2013/06/28/live-video-webcam-recording-with-opencv/) on using libboost to get real live recording from a camera. I also acknowledge all resources on the *new* syntax of OpenCV I could find...
+
+Please note this is a preliminary version of the program, I would *love* to hear from OpenCV gurus on how to implement buttons and a nice GUI to make UX a little better :S
