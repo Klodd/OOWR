@@ -54,7 +54,7 @@ Now it installs :)
 
 ### More issues with libdc1394
 Sometimes opencv won't find libdc1394, because homebrew can't find the headers. In that case run:
-brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime -v 2>&1
+<pre>brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime -v 2>&1</pre>
 and make sure the configure log says it has found libDC1394. If it hasn't, solve your $PATH issues. [One way of doing this is here.](https://github.com/bpinto/oh-my-fish)
 
 # Usage instructions
