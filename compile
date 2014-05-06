@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ liveRecord.cpp -I/usr/local/ $(pkg-config --libs opencv) -lboost_system-mt -lboost_thread-mt -lboost_program_options-mt -o live
