@@ -20,7 +20,7 @@ $ if this does not output a number, homebrew is not installed and you must run
 $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 $ don't forget to brew doctor your system.
 brew install git
-brew install boost $ This is suite long :)
+brew install boost <span style="color:green;">// This is quite long :)</span>
 pip install numpy
 brew install libraw
 install XQuartz from [XQuartz' project homepage](https://xquartz.macosforge.org/landing/)
