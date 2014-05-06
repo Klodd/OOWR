@@ -23,7 +23,7 @@ brew install git
 brew install boost <span style="color:green;">// This is quite long :)</span>
 pip install numpy
 brew install libraw
-install XQuartz from [XQuartz' project homepage](https://xquartz.macosforge.org/landing/)
+</pre>install XQuartz from [XQuartz' project homepage](https://xquartz.macosforge.org/landing/)<pre>
 brew install libdc1394 $ This is optional, and is required in order to use a IEEE1394 camera (a.k.a. any firewire camera). It may give you errors when installing SDL, see the following *Issues with libdc1394 and SDL* section in this readme
 brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime $ These options are important, OpenCV has a hard time encoding and writing your videos otherwise.</code></pre>
 
