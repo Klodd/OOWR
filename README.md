@@ -43,11 +43,11 @@ brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime
 
 ### Issues with libdc1394 and SDL
 Installing libdc1394 will install sdl on your machine, as it is one of its dependencies. You will probably get "palette" related errors, if you do, you'll need to edit the recipe.
-brew edit sdl
+<pre>brew edit sdl</pre>
 Add lines:
-patch do
+<pre>patch do
   url "http://hg.libsdl.org/SDL/raw-rev/bbfb41c13a87"
-end
+end</pre>
 
 To the section of the recipe where you see other patches.
 Now it installs :)
