@@ -15,7 +15,7 @@ In order to work, Oowr requires a lot of dependencies.
 - Several hardware libraries
 
 ### Install instructions
-<pre><code>brew --version
+<pre>brew --version
 $ if this does not output a number, homebrew is not installed and you must run
 $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 $ don't forget to brew doctor your system.
@@ -25,7 +25,7 @@ pip install numpy
 brew install libraw
 </pre>install XQuartz from [XQuartz' project homepage](https://xquartz.macosforge.org/landing/)<pre>
 brew install libdc1394 $ This is optional, and is required in order to use a IEEE1394 camera (a.k.a. any firewire camera). It may give you errors when installing SDL, see the following *Issues with libdc1394 and SDL* section in this readme
-brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime $ These options are important, OpenCV has a hard time encoding and writing your videos otherwise.</code></pre>
+brew install /homebrew/science/opencv --with-ffmpeg --without-quicktime $ These options are important, OpenCV has a hard time encoding and writing your videos otherwise.</pre>
 
 
 # Issues with libdc1394 and SDL
