@@ -24,9 +24,8 @@ brew install git
 brew install boost $ This is quite long :)
 pip install numpy
 brew install libraw
-</pre>
-install XQuartz from [XQuartz' project homepage](https://xquartz.macosforge.org/landing/)
-<pre>brew install libdc1394
+install XQuartz from https://xquartz.macosforge.org/landing/
+brew install libdc1394
 $ This is optional, and is required in order to use a IEEE1394 camera (a.k.a. any firewire camera).
 $ It may give you errors when installing SDL,
 $ see the following *Issues with libdc1394 and SDL* section in this readme
