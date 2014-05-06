@@ -58,11 +58,11 @@ Sometimes opencv won't find libdc1394, because homebrew can't find the headers. 
 and make sure the configure log says it has found libDC1394. If it hasn't, solve your $PATH issues. [One way of doing this is here.](https://github.com/bpinto/oh-my-fish)
 
 # Usage instructions
-Use the compile script to generate the *live* executable. Then you can try:
-./live --help
+Use the compile script to generate the *live* executable. Then you can try in a terminal:
+<pre>./live --help</pre>
 to get general information about the available options or
-./live --fps 50
+<pre>./live --fps 50</pre>
 to dive immediatly into action!
 
 # Thanks
-I would like to acknowledge [Aakash Patel](http://aaka.sh/patel/) for his great [blog post](http://aaka.sh/patel/2013/06/28/live-video-webcam-recording-with-opencv/) on using libboost to get real live recording from a camera. I also acknowledge any resource on the *new* syntax of OpenCV I could find...
+I would like to acknowledge [Aakash Patel](http://aaka.sh/patel/) for his great [blog post](http://aaka.sh/patel/2013/06/28/live-video-webcam-recording-with-opencv/) on using libboost to get real live recording from a camera. I also acknowledge all resources on the *new* syntax of OpenCV I could find...
